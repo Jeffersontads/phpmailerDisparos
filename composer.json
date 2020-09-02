@@ -1,0 +1,27 @@
+{
+    "name": "jefferson/aula_php",
+    "description": "enviando emails autenticados usando phpmailer smtp, composer, php e demais linguagens front-end.",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jefferson sotto",
+            "email": "jeffersontads@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
