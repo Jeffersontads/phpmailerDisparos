@@ -8,7 +8,7 @@
     $email->add (
         "Olá estou testando envio e disparo de emails",
         "<h1>Estou testando espero que funcione</h1>",
-        "Jefferson Rodrigo Sotto",
+        "Jefferson",
         "jrsottodev@gmail.com"
     ) ->send();
     //se estiver tudo certo
